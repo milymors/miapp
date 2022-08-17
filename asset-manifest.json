@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/miapp/static/css/main.f12f321b.css",
+    "main.js": "/miapp/static/js/main.6f951ece.js",
+    "index.html": "/miapp/index.html",
+    "main.f12f321b.css.map": "/miapp/static/css/main.f12f321b.css.map",
+    "main.6f951ece.js.map": "/miapp/static/js/main.6f951ece.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f12f321b.css",
+    "static/js/main.6f951ece.js"
+  ]
+}
