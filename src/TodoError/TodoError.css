@@ -1,0 +1,45 @@
+.TodoEmpty-container {
+    width: 350px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    margin-top: 24px;
+    background: var(--primary);
+  }
+
+  .TodoEmpty-text {
+    position: relative;
+    text-align: center;
+    font-size: 1.8rem;
+    color: var(white);
+    padding: 0 20px;
+    line-height: 3rem;
+    font-weight: 400;
+  }
+  
+  .TodoEmpty-container span {
+    color: var(--primary);
+    font-weight: 700;
+  }
+
+.TodoEmpty-container {
+    background: linear-gradient(90deg, rgb(250, 1, 1), rgb(200,199,199));
+    background-size: 400% 400%;
+    animation: loadingAnimation 3s ease-in-out infinite;
+}
+
+@keyframes loadingAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+    
+}

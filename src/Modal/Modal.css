@@ -1,0 +1,12 @@
+.ModalBackground{
+  width: 96%;
+  height: 96vh;
+  background: var(--background05);
+  position: absolute;
+  left: 2%;
+  top: 2vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}

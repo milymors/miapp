@@ -1,0 +1,50 @@
+:root {
+  --background: #046470;
+  --background05: #04647080;
+  --primary: #135547;
+  --primary05: #13554788;
+  --highlighted: #c8c7c7;
+  --light: #ffda20;
+  --light05: #ffda2999;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+html {
+  font-size: 67.5%;
+}
+
+body {
+  margin: 0;
+  background:  var(--background) url(https://png.pngtree.com/thumb_back/fw800/background/20210303/pngtree-neon-background-for-music-party-image_576449.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-size: 1.8rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: rgb(0, 0, 0);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}
+
+#root {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background: var(--primary05);
+}
