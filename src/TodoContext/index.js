@@ -13,7 +13,7 @@ import { useLocalStorage } from "./useLocalStorage";
 const TodoContext = React.createContext();
 
 function TodoProvider(props){
-    // Desestructuramos los nuevos datos de nustro custom hook
+    // Desestructuramos los nuevos datos de nuestro custom hook
   const {
     item: todos,
     saveItem: saveTodos,
